@@ -1,0 +1,86 @@
+. {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header .navbar .navbar-nav .nav-item{
+    font-size: 20;
+}
+
+/* Optional: Add padding to the body to prevent content from being hidden behind the header */
+body {
+    padding-top: 70px; /* Adjust this value according to the height of your header */
+}
+
+
+
+.OurClients .swiper {
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: #fff8f3; */
+    padding: 150px 14%;
+}
+
+.OurClients .swiper-slide {
+    display: flex; /* Make the slide a flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    width: 25%;
+    padding: 10px 0;
+    background-color: #fff8f3;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.OurClients .swiper-slide img {
+    display: block;
+    width: 68%;
+    height: 50%;
+    object-fit: cover;
+}
+
+/* .OurClients .swiper-slide .image-johnson,
+.OurClients .swiper-slide .image-medtronic{
+    padding: 28px 0;
+}
+
+.OurClients .swiper-slide .image-saudi-health{
+    width: 83%;
+}
+
+.OurClients .swiper-slide .image-saudi-heart{
+    width: 43%;   
+}
+
+.OurClients .swiper-slide .image-hospital{
+    width: 30%;
+} */
+/* ..................... Buttons ....................*/
+
+.OurClients .swiper .swiper-button-next,
+.OurClients .swiper .swiper-button-prev{
+    padding: 30px 30px;
+    background-color: #CA7062;
+    color: #DDC5B2;
+    border: none;
+    border-radius: 70px;
+    transition: .6s ease;
+    position: absolute;
+}
+
+.OurClients .swiper .swiper-button-next{
+    right: 10%;
+}
+
+.OurClients .swiper .swiper-button-prev{
+    left: 10%;
+}
+
+.OurClients .swiper .swiper-button-next:hover,
+.OurClients .swiper .swiper-button-prev:hover{
+    cursor: pointer;
+    background-color: #6F2B25;
+    color: #fff8f3;
+}
+
+/*....................................................*/
