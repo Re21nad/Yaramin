@@ -51,7 +51,7 @@
                             <a class="nav-link" href="#">Laptop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Game Console</a>
+                            <a class="nav-link" href="#">Tablet</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Accessories</a>
@@ -180,15 +180,20 @@
                     Products
                     </h6>
                     <p>
-                    <a href="#!" class="text-reset">Computers</a>
+                    <a href="{% url 'show_products' phone='Mobiles & Cellphones' %}" class="text-reset" style="text-decoration: none;">Mobile</a>
                     </p>
                     <p>
-                    <a href="#!" class="text-reset">Tablets</a>
+                    <a href="{% url 'show_products' phone='Computers & Laptops' %}" class="text-reset" style="text-decoration: none;">Laptop</a>
                     </p>
                     <p>
-                    <a href="#!" class="text-reset">Mobiles</a>
+                    <a href="{% url 'show_products' phone='Tablets' %}" class="text-reset" style="text-decoration: none;">Tablet</a>
                     </p>
-                    
+                    <p>
+                    <a href="{% url 'show_products' phone='Accessories' %}" class="text-reset" style="text-decoration: none;">Accessories</a>
+                    </p>
+                    <p>
+                    <a href="{% url 'show_products' phone='Brand' %}" class="text-reset" style="text-decoration: none;">Brand</a>
+                    </p>
                 </div>
                 <!-- Grid column -->
         
@@ -205,7 +210,6 @@
                     <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
                 </div>
                 <!-- Grid column -->
-
                 </div>
                 <!-- Grid row -->
             </div>
@@ -214,16 +218,24 @@
         
             <!-- Social Media -->
             <div class="text-center p-4" style="font-size: 150%;">
-                <a href="" class="me-4 text-reset">
+                <a href="" class="me-4 text-reset" 
+                style="text-decoration: none;
+                        color: inherit; ">
                 <i class="ri-facebook-fill"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
+                <a href="" class="me-4 text-reset"
+                style="text-decoration: none;
+                        color: inherit; ">
                 <i class="ri-twitter-fill"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
+                <a href="" class="me-4 text-reset"
+                style="text-decoration: none;
+                        color: inherit; ">
                 <i class="ri-instagram-fill"></i>
                 </a>
-                <a href="" class="me-4 text-reset">
+                <a href="" class="me-4 text-reset"
+                style="text-decoration: none;
+                        color: inherit; ">
                 <i class="ri-linkedin-fill"></i>
                 </a>
             </div>

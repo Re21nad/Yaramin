@@ -26,3 +26,11 @@ def show_tablets(request):
 def show_mobiles(request):
     templates = loader.get_template('mobiles.html')
     return HttpResponse(templates.render())
+
+def show_products(request, phone):
+    value={
+        'productName':phone
+    }
+
+    templates = loader.get_template('products.html')
+    return HttpResponse(templates.render(value))

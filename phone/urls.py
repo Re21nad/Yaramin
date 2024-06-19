@@ -28,5 +28,6 @@ urlpatterns = [
     path('computers/', v.show_computers, name='show_computers'),
     path('tablets/', v.show_tablets, name='show_tablets'),
     path('mobiles/', v.show_mobiles, name='show_mobiles'),
+    path('show_products/<str:phone>/', v.show_products, name='show_products'),
 
 ]+static(settings.STATIC_URL, ducument_root=settings.STATIC_ROOT)+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
